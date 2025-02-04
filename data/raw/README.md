@@ -3,6 +3,18 @@ This folder contains the original, unprocessed datasets used in the project and 
 
 ## 📂 Contents:
 
+- **📁 climate/** → Climate change data
+  - `climate_change.csv` – Climate change indicators
+ 
+- **📁 groundwater/** → Groundwater measurements
+  - `groundwater_rielasingen.csv` – Groundwater levels from Rielasingen (cm)
+ 
+- **📁 moon/** → Moon illumination data
+  - `moon_illumination.csv` – Percentage of moon illumination per night (%)
+ 
+- **📁 water_levels/** → Water level data
+  - `water_levels_konstanz.csv` – Daily water levels (cm)
+
 - **📁 weather/** → Weather variables from Konstance
   - `global_radiation.csv` - Daily global radiation (W/m²)
   - `humidity.csv` – Daily relative humidity (%)
@@ -14,15 +26,7 @@ This folder contains the original, unprocessed datasets used in the project and 
   - `wind_speed.csv` – Daily wind speed (m/s)
 
 
-- **📁 water_levels/** → Water level data
-  - `water_levels_konstanz.csv` – Daily water levels (cm)
 
-- **📁 groundwater/** → Groundwater measurements
-  - `groundwater_rielasingen.csv` – Groundwater levels from Rielasingen (cm)
 
-- **📁 climate/** → Climate change data
-  - `climate_change.csv` – Climate change indicators
 
-- **📁 moon/** → Moon illumination data
-  - `moon_illumination.csv` – Percentage of moon illumination per night (%)
 
