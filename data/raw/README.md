@@ -10,7 +10,7 @@ This folder contains the original, unprocessed datasets used in the project and 
   - `groundwater_rielasingen.csv` – Groundwater levels (m +NN) measured at Rielasingen-Worblingen.
  
 - **📁 moon/** → Moon illumination data
-  - `moon_illumination.csv` – Percentage of moon illumination per night (%)
+  - `moon_illumination.csv` – Daily percentage of the moon's surface illuminated (%), ranging from 0% (New Moon) to 100% (Full Moon).
  
 - **📁 water_levels/** → Water level data
   - `water_levels_konstanz.csv` – Daily water levels (cm)
