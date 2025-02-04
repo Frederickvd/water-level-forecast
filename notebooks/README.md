@@ -5,11 +5,11 @@ This folder contains Jupyter notebooks covering data preprocessing, feature engi
 ### **🔹 Preprocessing & Data Preparation**
 1. **`01_data_preparation.ipynb`** → Converts raw datasets to CSV, removes unnecessary data, merges features by date, and fills missing values (e.g., forward-fill for weekly groundwater levels).
 2. **`02_preprocessing_plus.ipynb`** → 
-   - **Preprocessing:** Splits dataset into train/test (before 2018 vs. after 2018), detects missing values, applies seasonal mean imputation.
-   - **Feature Engineering:** Creates lagged features (past 7 days), shifts target variable (predicting tomorrow’s water level).
+   - **Preprocessing:** Splits dataset into train/test (before 2018 vs. after 2018), applies seasonal mean imputation on missing values and rolling mean values on outliers.
+   - **Feature Engineering:** Creates lagged features (past 7 days), shifts target variable as we predict tomorrow’s water level.
 
 ### **🔹 Feature Engineering & Transformation**
-3. **`03_transformations.ipynb`** → Applies log transformation, standardization, and cyclical encoding for time-related variables.
+3. **`03_transformations.ipynb`** → Applies log transformation, standardization, and cyclical encoding of time-related variables to help random forest and neural network capture seasonal patterns and trends.
 4. **`04_deseasonalization_detrending.ipynb`** → Removes seasonality and trends for ARMA & Linear Regression models, ensuring stationarity. Detrends climate change data to avoid misleading regression coefficients.
 
 ### **🔹 Modeling & Prediction**
