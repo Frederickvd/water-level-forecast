@@ -1,14 +1,19 @@
 # Notebooks
-This folder contains Jupyter notebooks used for data preprocessing, feature engineering, and model training.
+This folder contains Jupyter notebooks covering data preprocessing, feature engineering, and model training.
 
 ## 📂 Contents:
-1. **`01_data_cleaning.ipynb`** → Merging, handling missing values, and outlier detection.
-2. **`02_feature_engineering.ipynb`** → Creating lag variables, filtering, and transformations.
-3. **`03_preprocessing.ipynb`** → Standardization, log transforms, train-test splitting.
-4. **`04_deseasoning.ipynb`** → Removing seasonal trends from data.
-5. **`05_linear_regression.ipynb`** → Baseline linear regression model.
-6. **`06_random_forest.ipynb`** → Random forest model for predictions.
-7. **`07_arma.ipynb`** → ARMA model for time series forecasting.
-8. **`08_neural_network.ipynb`** → Neural network model for predictions.
+### **🔹 Preprocessing & Data Preparation**
+1. **`01_data_preparation.ipynb`** → Converts raw datasets to CSV, removes unnecessary data, merges features by date, and fills missing values (e.g., forward-fill for weekly groundwater levels).
+2. **`02_preprocessing_plus.ipynb`** → 
+   - **Preprocessing:** Splits dataset into train/test (before 2018 vs. after 2018), detects missing values, applies seasonal mean imputation.
+   - **Feature Engineering:** Creates lagged features (past 7 days), shifts target variable (predicting tomorrow’s water level).
 
-⚠️ *Each notebook follows a sequential process. The final processed datasets can be found in `data/processed/`.*
+### **🔹 Feature Engineering & Transformation**
+3. **`03_transformations.ipynb`** → Applies log transformation, standardization, and cyclical encoding for time-related variables.
+4. **`04_deseasonalization_detrending.ipynb`** → Removes seasonality and trends for ARMA & Linear Regression models, ensuring stationarity. Detrends climate change data to avoid misleading regression coefficients.
+
+### **🔹 Modeling & Prediction**
+5. **`05_linear_regression.ipynb`** → Lasso and Ridge linear regression model on stationary, standardized data.
+6. **`06_random_forest.ipynb`** → Random forest model, which learns trends and seasonality directly from features.
+7. **`07_arma_model.ipynb`** → ARMA time series model applied to stationary water level data.
+8. **`08_neural_network.ipynb`** → Neural network model trained on standardized inputs.
