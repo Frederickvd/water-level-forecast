@@ -17,3 +17,5 @@ This folder contains Jupyter notebooks covering data preprocessing, feature engi
 6. **`06_random_forest.ipynb`** → Random forest model, which learns trends and seasonality directly from features.
 7. **`07_arma_model.ipynb`** → ARMA time series model applied to stationary water level data.
 8. **`08_neural_network.ipynb`** → Neural network model trained on standardized inputs.
+
+⚠️ *Each notebook follows a sequential process. The final processed datasets can be found in `data/processed/`.*
