@@ -4,7 +4,7 @@ This folder contains the original, unprocessed datasets used in the project and 
 ## 📂 Contents:
 
 - **📁 climate/** → Climate change data
-  - `climate_change.csv` – Climate change indicators
+  - `climate_change.csv` – Annual mean temperature change (°C) relative to the 1951-1980 climatology, recorded for various countries.
  
 - **📁 groundwater/** → Groundwater measurements
   - `groundwater_rielasingen.csv` – Groundwater levels from Rielasingen (cm)
@@ -15,7 +15,7 @@ This folder contains the original, unprocessed datasets used in the project and 
 - **📁 water_levels/** → Water level data
   - `water_levels_konstanz.csv` – Daily water levels (cm)
 
-- **📁 weather/** → Weather variables from Konstance
+- **📁 weather/** → Weather variables from Constance
   - `global_radiation.csv` - Daily global radiation (W/m²)
   - `humidity.csv` – Daily relative humidity (%)
   - `mean_temperature.csv` – Daily mean temperature (°C, stored in tenths)
