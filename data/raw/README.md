@@ -13,7 +13,7 @@ This folder contains the original, unprocessed datasets used in the project and 
   - `moon_illumination.csv` – Daily percentage of the moon's surface illuminated (%), ranging from 0% (New Moon) to 100% (Full Moon).
  
 - **📁 water_levels/** → Water level data
-  - `water_levels_konstanz.csv` – Daily water levels (cm)
+  - `water_levels_konstanz.csv` – Daily water levels (cm) recorded at Constance, Lake Constance.
 
 - **📁 weather/** → Weather variables from Constance
   - `global_radiation.csv` - Daily global radiation (W/m²)
