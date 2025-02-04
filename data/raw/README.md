@@ -7,7 +7,7 @@ This folder contains the original, unprocessed datasets used in the project and 
   - `climate_change.csv` – Annual mean temperature change (°C) relative to the 1951-1980 climatology, recorded for various countries.
  
 - **📁 groundwater/** → Groundwater measurements
-  - `groundwater_rielasingen.csv` – Groundwater levels from Rielasingen (cm)
+  - `groundwater_rielasingen.csv` – Groundwater levels (m +NN) measured at Rielasingen-Worblingen.
  
 - **📁 moon/** → Moon illumination data
   - `moon_illumination.csv` – Percentage of moon illumination per night (%)
