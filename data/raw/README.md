@@ -10,7 +10,7 @@ This folder contains the original, unprocessed datasets used in the project and 
   - `precipitation.csv` – Daily precipitation (mm)
   - `sea_level_pressure.csv` - Daily sea-level pressure (hPa, stored in tenths)
   - `snow_depth` - Daily snow depth (cm)
-  - `sunshine.csv` – Daily solar radiation (W/m²)
+  - `sunshine.csv` – Daily sunshine ??
   - `wind_speed.csv` – Daily wind speed (m/s)
 
 
