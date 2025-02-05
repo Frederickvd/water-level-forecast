@@ -4,7 +4,7 @@ This folder contains the original, unprocessed datasets related to **Lake Consta
 ## **📂 Contents:**
 
 ### **📁 Climate** → Long-term climate change indicators  
-- **`climate_change.csv`** – Annual mean surface temperature change (**°C**) relative to the **1951-1980 climatology**, sourced from the **IMF**.
+- **`climate_change.csv`** – Annual mean surface temperature change (**°C**) relative to the **1951-1980 climatology**, sourced from the **International Monetary Fund (IMF)**.
 
 ### **📁 Groundwater** → Groundwater level measurements  
 - **`groundwater_rielasingen.csv`** – Daily groundwater levels (**m +NN**) recorded at **Rielasingen-Worblingen**, sourced from the **Baden-Württemberg State Institute for the Environment (LUBW)**.
