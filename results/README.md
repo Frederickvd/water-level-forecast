@@ -34,9 +34,9 @@ This folder contains the results from our model predictions and evaluations for 
 Our predictions aim to help ferry operators on **Lake Constance** by forecasting water levels for the next day. 
 
 **Key Findings:**
-- The **Neural Network model** performed best, with an RMSE of **1.96**, showing it could generalize patterns well.
+- The **Neural Network model** with an RMSE of **1.96** showed it could generalize patterns well.
 - The **Random Forest model** was also highly effective, scoring an RMSE of **2.04**.
-- **Linear regression models (Ridge, Lasso)** had a lower RMSE of **1.40 and 1.43**, making them interpretable but slightly less accurate.
+- **Linear regression models (Ridge, Lasso)** performed best, with a RMSE of **1.40 and 1.43**.
 - The **ARMA model**, despite being a simple statistical approach, performed surprisingly well with an RMSE of **2.12**.
 
 These findings indicate that more complex models (Neural Networks, Random Forest) capture nonlinear relationships better, while simpler models (ARMA, Linear Regression) can still yield strong results with proper feature engineering.
