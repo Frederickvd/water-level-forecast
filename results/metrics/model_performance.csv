@@ -1,0 +1,6 @@
+model_name,RMSE,MSE
+ARMA,2.12,4.49
+Ridge,1.4,1.96
+Lasso,1.43,2.04
+RandomForest,2.04,4.16
+NeuralNetwork,1.96,3.84
