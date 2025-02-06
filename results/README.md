@@ -4,20 +4,20 @@ This folder contains the results from our model predictions and evaluations for 
 
 ## 📂 Contents:
 
-## 📁 plots/ → Key visualizations generated during the analysis
+- ### 📁 plots/ → Key visualizations generated during the analysis
 
-### 📁 accuracy/ → Model performance and residuals analysis
-- **accuracy_arma.png** → Predicted vs. actual water levels for the ARMA model.
-- **accuracy_l_r.png** → Predicted vs. actual water levels for Ridge and Lasso Regression.
-- **accuracy_neural_network.png** → Predicted vs. actual water levels for the Neural Network model.
-- **accuracy_random_forest.png** → Predicted vs. actual water levels for the Random Forest model.
-- **residual_dist_l_r.png** → Distribution of residuals for Ridge and Lasso Regression.
+  - #### 📁 accuracy/ → Model performance and residuals analysis
+    - **accuracy_arma.png** → Predicted vs. actual water levels for the ARMA model.
+    - **accuracy_l_r.png** → Predicted vs. actual water levels for Ridge and Lasso Regression.
+    - **accuracy_neural_network.png** → Predicted vs. actual water levels for the Neural Network model.
+    - **accuracy_random_forest.png** → Predicted vs. actual water levels for the Random Forest model.
+    - **residual_dist_l_r.png** → Distribution of residuals for Ridge and Lasso Regression.
 
-### 📁 feature_importance/ → Feature importance rankings for different models
-- **feature_imp_lasso.png** → Feature importance for the Lasso Regression model.
-- **feature_imp_ridge.png** → Feature importance for the Ridge Regression model.
-- **feature_imp_random_forest.png** → Feature importance for the Random Forest model, excluding the first lag.
-- **feature_imp_neural_network.png** → Feature importance for the Neural Network model, excluding the first lag.
+  - #### 📁 feature_importance/ → Feature importance rankings for different models
+    - **feature_imp_lasso.png** → Feature importance for the Lasso Regression model.
+    - **feature_imp_ridge.png** → Feature importance for the Ridge Regression model.
+    - **feature_imp_random_forest.png** → Feature importance for the Random Forest model, excluding the first lag.
+    - **feature_imp_neural_network.png** → Feature importance for the Neural Network model, excluding the first lag.
 
 - **📁 metrics/** → Evaluation metrics for model performance
   - `model_performance.csv` → RMSE, MSE, and other evaluation metrics for all models.
