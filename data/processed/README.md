@@ -20,7 +20,7 @@ This folder contains processed datasets used for training and evaluating models 
 - **`traindata_nn_rf.csv`** – The final standardized training set for **Random Forest & Neural Networks**, containing time indices and cyclical transformations.
 
 ### Deseasonalization & Detrending (Notebook `04_deseasonalization_detrending.ipynb`)
-- **`seasonality_components.csv`** – Extracted seasonal components of water levels.
+- **`seasonality_components.csv`** – Extracted seasonal components from water levels.
 - **`train_detrended.csv`** – The detrended and deseasonalized training set, used for **ARMA & Linear Regression**.
 - **`test_detrended.csv`** – The detrended and deseasonalized test set, used for **ARMA & Linear Regression**.
 
