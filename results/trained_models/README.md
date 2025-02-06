@@ -5,20 +5,19 @@ This folder contains serialized versions of all trained models for this project,
 ## Files Overview
 
 - **`ridge_regression.pkl`**  
-  Trained Ridge Regression model (joblib format).  
+  Trained Ridge Regression model.  
 
 - **`lasso_regression.pkl`**  
-  Trained Lasso Regression model (joblib format).  
+  Trained Lasso Regression model.  
 
 - **`random_forest.pkl`**  
-  Trained Random Forest model (joblib format).
+  Trained Random Forest model.
 
 - **`arma_model.pkl`**  
-  Trained ARMA (AutoRegressive Moving Average) model (joblib format).
+  Trained ARMA (AutoRegressive Moving Average) model.
 
 - **`neural_network.pkl`**  
-  Trained Neural Network model (saved using joblib).  
-  **Note**: If you are using frameworks like PyTorch or TensorFlow, you would typically save them with `.pth` or `.h5` extensions. Here, however, the model has been converted or wrapped in a Python object that can be serialized by joblib.
+  Trained Neural Network model.
 
 ## How to Use
 
