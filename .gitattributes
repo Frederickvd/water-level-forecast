@@ -1,2 +1,0 @@
-results/trained_models/*.pkl filter=lfs diff=lfs merge=lfs -text
-results/trained_models/random_forest.pkl filter=lfs diff=lfs merge=lfs -text
