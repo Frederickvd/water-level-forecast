@@ -4,18 +4,23 @@ This folder contains the results from our model predictions and evaluations for 
 
 ## 📂 Contents:
 
-- **📁 plots/** → Key visualizations generated during the analysis
-  - `water_levels_pred_vs_actual.png` → Comparison of predicted vs actual water levels.
-  - `feature_importance_rf.png` → Feature importance ranking from the Random Forest model.
-  - `feature_importance_nn.png` → Feature importance ranking from the Neural Network model.
-  - `arma_forecast.png` → ARMA model's rolling forecast for water levels.
-  - `ridge_vs_lasso_residuals.png` → Residuals distribution for Ridge vs. Lasso Regression.
-  - `rmse_comparison.png` → RMSE comparison for all models.
-  - `seasonality_analysis.png` → Detected seasonality trends in water levels.
+- ### 📁 plots/ → Key visualizations generated during the analysis
+
+  - #### 📁 accuracy/ → Model performance and residuals analysis
+    - **accuracy_arma.png** → Predicted vs. actual water levels for the ARMA model.
+    - **accuracy_l_r.png** → Predicted vs. actual water levels for Ridge and Lasso Regression.
+    - **accuracy_neural_network.png** → Predicted vs. actual water levels for the Neural Network model.
+    - **accuracy_random_forest.png** → Predicted vs. actual water levels for the Random Forest model.
+    - **residual_dist_l_r.png** → Distribution of residuals for Ridge and Lasso Regression.
+
+  - #### 📁 feature_importance/ → Feature importance rankings for different models
+    - **feature_imp_lasso.png** → Feature importance for the Lasso Regression model.
+    - **feature_imp_ridge.png** → Feature importance for the Ridge Regression model.
+    - **feature_imp_random_forest.png** → Feature importance for the Random Forest model, excluding the first lag.
+    - **feature_imp_neural_network.png** → Feature importance for the Neural Network model, excluding the first lag.
 
 - **📁 metrics/** → Evaluation metrics for model performance
   - `model_performance.csv` → RMSE, MSE, and other evaluation metrics for all models.
-  - `residuals_analysis.csv` → Table of residuals (errors) for each prediction.
 
 - **📁 trained_models/** → Trained and saved model files
   - `arma_model.pkl` → Saved ARMA model.
@@ -25,9 +30,8 @@ This folder contains the results from our model predictions and evaluations for 
   - `neural_network.pkl` → Saved Neural Network model.
 
 - **📁 reports/** → Summary reports and key findings
-  - `model_comparison.md` → A discussion on the strengths and weaknesses of each model.
   - `research_report.pdf` → The full research report.
-  - `insights.md` → Key insights derived from the analysis.
+  - `insights.md` → Key insights derived from the analysis and model comparison.
 
 ## Summary of Results
 
