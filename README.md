@@ -50,7 +50,7 @@ The trained models are stored in `results/trained_models/`:
 - `lasso_regression.pkl` – Trained Lasso Regression model  
 - `random_forest.pkl` – Trained Random Forest model  
 - `arma_model.pkl` – Trained ARMA model  
-- `neural_network.pth` – Trained Neural Network model  
+- `neural_network.pkl` – Trained Neural Network model  
 
 ### Results
 All visualizations, error metrics, and model performance reports are saved in the `results/` directory.
