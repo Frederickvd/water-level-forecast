@@ -10,7 +10,7 @@ This folder contains Jupyter notebooks covering data preprocessing, feature engi
 
 ### **Feature Engineering & Transformation**
 3. **`03_transformations.ipynb`** → Applies log transformation, standardization, and cyclical encoding of time-related variables to help random forest and neural network capture seasonal patterns and trends.
-4. **`04_deseasonalization_detrending.ipynb`** → Removes seasonality and trends for ARMA & Linear Regression models, ensuring stationarity. Detrends climate change data to avoid misleading regression coefficients.
+4. **`04_deseasonalization_detrending.ipynb`** → Removes seasonality and trends for ARMA & Linear Regression models, ensuring stationarity. 
 
 ### **Modeling & Prediction**
 5. **`05_linear_regression.ipynb`** → Lasso and Ridge linear regression model on stationary, standardized data.
