@@ -4,13 +4,13 @@ This repository contains a project developed for the *Workshop Fundamentals of D
 
 
 - [Predicting Water Levels of Lake Constance](#predicting-water-levels-of-lake-constance)
-- [Contributors](#contributors)
-- [Setup](#setup)
-  - [Installation](#installation)
-  - [Data](#data)
-  - [Model Weights](#model-weights)
-  - [Results](#results)
-- [Source Code Directory Tree](#source-code-directory-tree)
+  - [Contributors](#contributors)
+  - [Setup](#setup)
+    - [Installation](#installation)
+    - [Data](#data)
+    - [Model Weights](#model-weights)
+    - [Results](#results)
+  - [Source Code Directory Tree](#source-code-directory-tree)
 
 ## Contributors
 
